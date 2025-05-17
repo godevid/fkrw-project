@@ -16,7 +16,7 @@ import React from 'react';
 
       const handleLogout = () => {
         logout();
-        navigate('/admin/login');
+        navigate('/login');
       };
 
       const navItems = [
