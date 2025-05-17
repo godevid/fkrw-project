@@ -29,7 +29,7 @@ function AppRoutes() {
       <Route path="/blog" element={<BlogPage />} />
       <Route path="/about" element={<AboutPage />} />
       <Route path="/contact" element={<ContactPage />} />
-      <Route path="/admin/login" element={<AdminLoginPage />} />
+      <Route path="/login" element={<AdminLoginPage />} />
       <Route
         path="/admin"
         element={
