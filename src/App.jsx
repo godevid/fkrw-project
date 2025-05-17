@@ -38,7 +38,7 @@ function AppRoutes() {
               <AdminDashboardPage />
             </AdminLayout>
           ) : (
-            <Navigate to="/admin/login" />
+            <Navigate to="/login" />
           )
         }
       />
@@ -50,7 +50,7 @@ function AppRoutes() {
               <AdminProductsPage />
             </AdminLayout>
           ) : (
-            <Navigate to="/admin/login" />
+            <Navigate to="/login" />
           )
         }
       />
@@ -62,7 +62,7 @@ function AppRoutes() {
               <AdminArticlesPage />
             </AdminLayout>
           ) : (
-            <Navigate to="/admin/login" />
+            <Navigate to="/login" />
           )
         }
       />
