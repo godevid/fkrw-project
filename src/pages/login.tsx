@@ -30,7 +30,7 @@ const LoginPage = () => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100">
       <form onSubmit={handleLogin} className="bg-white p-8 rounded shadow w-full max-w-md space-y-4">
-        <h2 className="text-2xl font-bold text-center">Login Admin</h2>
+        <h2 className="text-2xl font-bold text-center">Login Admin Beta</h2>
         {error && <p className="text-red-500 text-sm">{error}</p>}
         <input
           type="email"
